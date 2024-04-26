@@ -18,11 +18,19 @@
     "@angular/platform-browser": "~13.3.0",
     "@angular/platform-browser-dynamic": "~13.3.0",
     "@angular/router": "~13.3.0",
+    "@fortawesome/fontawesome-free": "^6.5.2",
     "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
   },
+  "styles": [
+    "src/styles.css",
+    "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+    "./node_modules/@fortawesome/fontawesome-free/css/all.min.css",
+    "./node_modules/bootstrap-icons/font/bootstrap-icons.css"
+  ],
   "devDependencies": {
     "@angular-devkit/build-angular": "~13.3.11",
     "@angular/cli": "~13.3.11",
