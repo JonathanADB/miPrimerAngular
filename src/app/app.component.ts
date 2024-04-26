@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'miPrimerAngular';
-  subtitle= 'esto es un subtitulo'
+  title = '';
+  subtitle= ''
 }
